@@ -1,0 +1,74 @@
+body {
+  background: #f9f7fe;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 35px;
+}
+
+section {
+  background-color: white;
+  padding: 30px;
+  max-width: 700px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0px 25px 60px rgba(65, 50, 100, 0.08);
+}
+header input {
+  font-size: 15px;
+  padding: 20px;
+  border-radius: 5px;
+}
+form .city {
+  background: #f9f7fe;
+  width: 450px;
+}
+form .search {
+  color: white;
+  background-color: #885df1;
+  margin: none;
+  margin-right: 40px;
+}
+h1 {
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-weight: 850;
+  font-size: 35px;
+  padding-top: 30px;
+}
+p {
+  font-family: Roboto, sans-serif;
+  color: rgba(39, 33, 66, 0.4);
+}
+strong {
+  color: red;
+}
+footer p {
+  position: relative;
+  top: -50px;
+  padding: 10px;
+}
+.city,
+.search {
+  border: none;
+}
+
+.temperature {
+  font-family: Roboto, sans-serif;
+  font-size: 26px;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  top: -90px;
+}
+.number {
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-weight: 800;
+  font-size: 80px;
+  position: relative;
+  top: -20px;
+}
+.sun {
+  position: relative;
+  top: 20px;
+  font-size: 40px;
+}
